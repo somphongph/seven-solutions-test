@@ -1,0 +1,14 @@
+app:
+  name: pie-fire-dire
+  env: local
+  port: 9000
+
+server:
+  pretty_print: true
+  log_level: debug # debug, info, warn, error
+  idle_timeout: 1m
+  read_timeout: 1m
+  write_timeout: 1m
+
+service:
+  debug: true
